@@ -1,0 +1,32 @@
+inicio
+	numero a, b@
+	texto c@
+	float d@
+
+	b = 2 + 4@
+	a = 2 + (3 - 4)@
+	d = 2.2@
+
+	c = "caso"@
+
+	ler(t)@
+
+	se (a > b) {
+		escreva(b)@
+	} senao {
+		escreva(c)@
+	}
+
+	enquanto (2 > b) {
+		escreva(d)@
+	}
+
+	faz {
+		numero l@
+		l = 2@
+	} enquanto(a > b)@
+
+	escreva(l)@
+	escreva(t)@
+
+fimprog
